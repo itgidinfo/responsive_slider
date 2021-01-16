@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+input, select, textarea {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+select {
+    box-sizing: border-box;
+    padding: 9px 20px 10px 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="color"] {
+        padding: 8px 8px;
+    position: relative;
+    bottom: -2px;
+}
+
+input[type="date"] {
+     padding: 8px 8px;
+}
+
+input[type="range"] {
+     position: relative;
+     bottom: -14px;
+}
+
+input[type="date"]:active, input[type="date"]:focus, input[type="color"]:active, input[type="color"]:focus, input[type="password"]:active, input[type="password"]:focus, input[type="email"]:active, input[type="email"]:focus, select:active, select:focus   {
+    border-radius: 0 !important;
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+.out-block {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.section {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.section div {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: IndianRed;
+}
+
+.courses {
+    margin-top: 40px;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses a {
+    color: #222;
+}
+
+.slider {
+    border: 2px solid black;
+    /* width: 100%; */
+    max-width: 80%;
+    /* height: 300px; */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 1024px;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
