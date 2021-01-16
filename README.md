@@ -4,7 +4,7 @@
 
 Адаптивный слайдер на JavaScript. Слайдер автоматически подстраивается под смену разрешения и прокручивается до активного слайда
 ### Посмотреть видеоурок на Youtube
-https://youtu.be/TbkL329h5bg
+https://youtu.be/CEzacaCUDqU
 [![Посмотреть видео](https://github.com/itgidinfo/responsive_slider/blob/master/images/cover.png?raw=true)](https://youtu.be/CEzacaCUDqU)
 
 ### Курсы ItGid.info
